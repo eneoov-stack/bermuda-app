@@ -9,55 +9,60 @@
 <body>
 <main>
   <h1>개인정보처리방침</h1>
-  <p class="sub">bermuda-youtube-upload · 시행일 2026년 9월 26일</p>
+  <p class="sub">bermuda-youtube-upload · 시행일 2026년 9월 26일 · 개정 2026년 10월 4일</p>
 
   <h2>1. 수집하는 정보</h2>
-  <p>이 앱은 Google 로그인 시 사용자가 허용한 범위 안에서만 다음 정보를 사용합니다.</p>
+  <p>이 앱은 Google 로그인 시 사용자가 허용한 범위 안에서만 다음 권한을 씁니다.</p>
   <ul>
-    <li>로그인한 계정의 유튜브 채널 이름과 채널 ID (<code>youtube.readonly</code>)</li>
-    <li>영상 업로드 권한 (<code>youtube.upload</code>)</li>
+    <li><code>youtube.readonly</code>: 로그인한 채널의 이름과 ID 확인, 자사 영상·재생목록 목록 조회</li>
+    <li><code>youtube.upload</code>: 자사 영상과 썸네일 업로드</li>
+    <li><code>youtube</code>: 자사 영상의 제목·설명·태그 수정, 자사 재생목록에 영상 넣기</li>
+    <li><code>youtube.force-ssl</code>: 자사 영상에 채널 이름으로 댓글 달기와 그 댓글 고치기</li>
   </ul>
   <p>이름, 이메일, 연락처, 시청 기록 같은 그 밖의 개인정보는 요청하지 않고 수집하지 않습니다.</p>
 
   <h2>2. 이용 목적</h2>
-  <p>버뮤다픽쳐스가 제작한 영상을 버뮤다픽쳐스 유튜브 채널에 업로드하는 데에만 씁니다.
-  업로드하기 전에 올바른 채널에 로그인했는지 확인하는 데 채널 이름과 ID를 씁니다.</p>
+  <p>버뮤다픽쳐스가 제작한 영상을 버뮤다픽쳐스 유튜브 채널에 업로드하고, 그 영상의 정보(제목·설명·태그·썸네일·재생목록)와
+  채널 이름으로 단 댓글을 관리하는 데에만 씁니다. 작업 전에 올바른 채널에 로그인했는지 확인하는 데 채널 이름과 ID를 씁니다.</p>
 
   <h2>3. 보관</h2>
   <p>Google이 발급한 인증 토큰은 앱을 실행하는 운영자의 컴퓨터에만 파일로 저장됩니다.
-  이 앱은 별도의 서버나 데이터베이스를 두지 않으며, 어떤 정보도 외부로 전송하거나 보관하지 않습니다.
-  Google API와의 통신은 업로드와 채널 확인에 필요한 요청뿐입니다.</p>
+  이 앱은 별도의 서버나 데이터베이스를 두지 않으며, YouTube에서 받은 데이터를 외부로 전송하거나 따로 보관하지 않습니다.
+  Google API와의 통신은 위 작업에 필요한 요청뿐입니다.</p>
 
   <h2>4. 제3자 제공</h2>
   <p>Google로부터 받은 정보를 제3자에게 판매하거나 제공하거나 공유하지 않습니다.
-  광고, 분석, 인공지능 모델 학습에 사용하지 않습니다.</p>
-  <p>이 앱이 Google API로부터 받은 정보를 사용하고 다른 앱으로 옮기는 방식은
+  광고, 분석, 인공지능 모델 학습에 사용하지 않습니다.
+  이 앱이 Google API로부터 받은 정보를 사용하고 다른 앱으로 옮기는 방식은
   <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>과
   그 제한적 사용(Limited Use) 요건을 따릅니다.</p>
 
   <h2>5. 권한 철회와 삭제</h2>
   <p>언제든지 <a href="https://myaccount.google.com/permissions">Google 계정의 서드파티 연결 관리</a>에서
   이 앱의 권한을 철회할 수 있습니다. 철회하면 저장된 토큰은 더 이상 쓸 수 없고, 운영자 컴퓨터의 토큰 파일도 삭제합니다.
-  YouTube 서비스 이용에는 <a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a>과
+  <a href="https://security.google.com/settings/security/permissions">Google 보안 설정</a>에서도 철회할 수 있습니다.</p>
+  <p>YouTube 서비스 이용에는 <a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a>과
   <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>이 함께 적용됩니다.</p>
 
   <h2>6. 문의</h2>
-  <p>버뮤다픽쳐스 (Bermuda Pictures) · eneoov@gmail.com</p>
+  <p>버뮤다픽쳐스 (Bermuda Pictures) · bermudapicture@naver.com</p>
 
   <hr>
   <h2 lang="en">Summary in English</h2>
-  <p lang="en" class="en">bermuda-youtube-upload requests only the <code>youtube.upload</code> and
-  <code>youtube.readonly</code> scopes. It uses them solely to upload Bermuda Pictures' own videos to its own
-  YouTube channel and to confirm the signed-in channel before uploading. OAuth tokens are stored only on the
-  operator's own computer; the app has no server and does not transmit, sell, or share Google user data with
-  anyone, nor use it for advertising, analytics, or AI model training. Use of information received from Google
-  APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
-  Services User Data Policy</a>, including the Limited Use requirements. Access can be revoked at any time at
+  <p lang="en" class="en">bermuda-youtube-upload requests the youtube.readonly, youtube.upload, youtube and youtube.force-ssl
+  scopes. It uses them solely to upload Bermuda Pictures' own videos and thumbnails to its own YouTube channel, edit the
+  metadata of those videos, add them to its own playlists, post and edit comments as the channel on its own videos, and
+  confirm the signed-in channel before each operation. It does not access other users' channels or data. OAuth tokens are
+  stored only on the operator's own computer; the app has no server and does not store YouTube data, and does not transmit,
+  sell, or share Google user data with anyone, nor use it for advertising, analytics, or AI model training. Use of
+  information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements. Access can be revoked at any time at
   <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
-  Use of YouTube is also subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
-  Contact: eneoov@gmail.com</p>
+  Use of YouTube is also subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Contact: bermudapicture@naver.com</p>
 
-  <footer><a href="./">bermuda-youtube-upload</a></footer>
+  <footer><a href="index.html">홈</a> · <a href="privacy.html">개인정보처리방침</a> · <a href="terms.html">이용약관</a> · 문의 / Contact: bermudapicture@naver.com</footer>
 </main>
 </body>
 </html>
